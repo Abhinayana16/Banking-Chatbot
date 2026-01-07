@@ -1,0 +1,9 @@
+numpy
+nltk
+tensorflow==2.12.0
+keras
+pickle-mixin
+streamlit
+googletrans==4.0.0-rc1
+scikit-learn
+langdetect
