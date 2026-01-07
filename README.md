@@ -46,45 +46,20 @@ Edit
 ├── .gitignore           # Ignored files & virtual env
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-
-bash
-Copy
-Edit
 git clone https://github.com/Abhinayana16/Banking-Chatbot.git
 cd Banking-Chatbot
 2️⃣ Create & activate virtual environment
-
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
 3️⃣ Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4️⃣ Train the model (optional, if modifying intents)
-
-bash
-Copy
-Edit
 python trainingData.py
 5️⃣ Run the chatbot
-
 CLI Version:
-
-bash
-Copy
-Edit
 python main.py
 Web Version (Streamlit):
-
-bash
-Copy
-Edit
 streamlit run main2.py
 📊 How It Works
 User Input → Detect language using langdetect.
